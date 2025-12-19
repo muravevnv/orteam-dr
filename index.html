@@ -6,59 +6,51 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link rel="stylesheet" href="css/old.css">
   <link rel="stylesheet" href="css/dr.css">
+  <link rel="stylesheet" href="css/menu.css">
+  <link rel="stylesheet" href="css/price-table.css">
+  <link rel="stylesheet" href="css/dr-hero-secondary.css">
   <title>Document</title>
 </head>
 
 <body>
+
   <main>
-    <section class="dr-hero dr-section">
+    <section class="dr-hero-secondary dr-section">
       <div class="wrapper">
-        <div class="dr-hero__inner">
-          <div class="dr-hero__info">
-            <div class="dr-hero__title">
-              Эстетическая реставрация зубов в Санкт-Петербурге
-            </div>
-            <div class="dr-hero__subtitle">
-              Художественное восстановление зуба: точная анатомия, натуральный цвет и идеальная форма
-            </div>
-            <div class="dr-hero__desc">
-              <p>
-                В стоматологической клинике ORTEAM в Санкт-Петербурге мы предлагаем пациентам эстетическую
-                и функциональную реставрацию зубов, включая прямые и непрямые методы, композитное восстановление
-                и реконструкцию поверхностных и глубоких повреждений зуба.
-              </p>
-              <p>
-                Если вы ищете лечение пломбами, восстановление архитектуры улыбки, косметическую коррекцию зубного ряда,
-                покрытие винирами или восстановление коренного зуба — мы подберём наилучший вариант именно
-                под ваш случай.
-              </p>
-            </div>
-            <a href="#" class="dr-hero__btn button">
-              Подобрать лучший вариант
-            </a>
-          </div>
-          <div class="dr-hero__promo">
-            <picture class="dr-hero__promo-img">
-              <img src="./img/dr/hero.jpg" alt="">
-            </picture>
-            <a href="#" class="dr-hero__promo-video-btn">
-              <svg width="62" height="62" viewBox="0 0 62 62" fill="none" xmlns="http://www.w3.org/2000/svg">
-                <path
-                  d="M31.0003 56.8334C45.2681 56.8334 56.8337 45.2678 56.8337 31C56.8337 16.7323 45.2681 5.16669 31.0003 5.16669C16.7326 5.16669 5.16699 16.7323 5.16699 31C5.16699 45.2678 16.7326 56.8334 31.0003 56.8334Z"
-                  stroke="#FCA311" stroke-width="2" stroke-linejoin="round" />
-                <path d="M25.834 31V22.0513L33.584 26.5257L41.334 31L33.584 35.4743L25.834 39.9487V31Z" stroke="#FCA311"
-                  stroke-width="2" stroke-linejoin="round" />
-              </svg>
-            </a>
-            <div class="dr-hero__promo-info">
-              <div class="dr-hero__promo-title">
-                Панков Дмитрий Евгеньевич
+        <div class="dr-hero-secondary__inner">
+          <div class="dr-hero-secondary__info">
+            <div class="dr-hero-secondary__top">
+              <div class="dr-hero-secondary__title">
+                Установка брекетов в&nbsp;СПБ «под ключ»
               </div>
-              <div class="dr-hero__promo-desc">
-                Эксперт по восстановлению стираемости зубов с помощью композитных реставраций
+              <div class="dr-hero-secondary__desc">
+                Предварительный план лечения, сроки и цены — уже на первой консультации
+              </div>
+              <div class="dr-hero-secondary__action">
+                <a href="#" class="dr-hero-secondary__btn button">Получить консультацию</a>
+                <div class="dr-hero-secondary__tip">Бесплатно!</div>
+              </div>
+            </div>
+            <div class="dr-hero-secondary__details">
+              <div class="dr-hero-secondary__details-title">
+                Ортодонтия любой сложности: от элайнеров до ЧЛХ
+              </div>
+              <div class="dr-hero-secondary__details-list">
+                <div class="dr-hero-secondary__details-item">
+                  Фиксируем цену в договоре: от диагностики до ретейнера
+                </div>
+                <div class="dr-hero-secondary__details-item">
+                  Лечим в рассрочку без процентов
+                </div>
+                <div class="dr-hero-secondary__details-item">
+                  Гарантия стабильности результата при соблюдении рекомендаций
+                </div>
               </div>
             </div>
           </div>
+          <picture class="dr-hero-secondary__img">
+            <img src="./img/hero-banner.jpg" alt="">
+          </picture>
         </div>
       </div>
     </section>
@@ -249,6 +241,246 @@
         </div>
       </div>
     </section>
+    <section class="dr-pricelist dr-section">
+      <div class="wrapper">
+        <div class="dr-pricelist__inner">
+          <div class="dr-pricelist__title dr-h2">Стоимость</div>
+          <div class="dr-pricelist__table">
+            <table class="price-table">
+              <thead>
+                <tr>
+                  <th>Код услуги</th>
+                  <th>
+                    <div class="table-title">
+                      <div class="table-title-text">
+                        Название
+                      </div>
+                      <div class="table-title-line"></div>
+                    </div>
+                  </th>
+                  <th>Цена</th>
+                </tr>
+              </thead>
+              <tbody>
+                <!-- Обычная строка -->
+                <tr>
+                  <td>A16.07.048-01-2</td>
+                  <td>
+                    <div class="table-title">
+                      <div class="table-title-text">
+                        <b>Консультация</b>
+                      </div>
+                      <div class="table-title-line"></div>
+                    </div>
+                  </td>
+                  <td><b>Бесплатно</b></td>
+                </tr>
+
+                <!-- Строка-аккордеон -->
+                <tr class="accordion-row" data-accordion="accordion1">
+                  <td>
+                    -
+                  </td>
+                  <td>
+                    <div class="table-title">
+                      <div class="table-title-text">
+                        <div class="accordion-icon"></div>
+                        <b>Лечение одноканального зуба (под ключ)</b>
+                      </div>
+                      <div class="table-title-line"></div>
+                    </div>
+                  </td>
+                  <td>
+                    <b>от 5 000 ₽</b>
+                  </td>
+                </tr>
+
+                <!-- Скрытые строки аккордеона -->
+                <tr class="accordion-content" data-content="accordion1">
+                  <td>A16.07.001.001</td>
+                  <td>
+                    <div class="table-title">
+                      <div class="table-title-text">
+                        Диагностика и планирование лечения
+                      </div>
+                      <div class="table-title-line"></div>
+                    </div>
+                  </td>
+                  <td>1 500 ₽</td>
+                </tr>
+                <tr class="accordion-content" data-content="accordion1">
+                  <td>A16.07.001.002</td>
+                  <td>
+                    <div class="table-title">
+                      <div class="table-title-text">
+                        Анестезия
+                      </div>
+                      <div class="table-title-line"></div>
+                    </div>
+                  </td>
+                  <td>500 ₽</td>
+                </tr>
+                <tr class="accordion-content" data-content="accordion1">
+                  <td>A16.07.001.003</td>
+                  <td>
+                    <div class="table-title">
+                      <div class="table-title-text">
+                        Препарирование и пломбирование канала
+                      </div>
+                      <div class="table-title-line"></div>
+                    </div>
+                  </td>
+                  <td>3 000 ₽</td>
+                </tr>
+
+                <!-- Cтрока-аккордеон -->
+                <tr class="accordion-row" data-accordion="accordion2">
+                  <td>
+                    -
+                  </td>
+                  <td>
+                    <div class="table-title">
+                      <div class="table-title-text">
+                        <div class="accordion-icon"></div>
+                        <b>Лечение многоканального зуба</b>
+                      </div>
+                      <div class="table-title-line"></div>
+                    </div>
+                  </td>
+                  <td>
+                    <b>от 8 000 ₽</b>
+                  </td>
+                </tr>
+
+                <!-- Скрытые строки аккордеона -->
+                <tr class="accordion-content" data-content="accordion2">
+                  <td>A16.07.002.001</td>
+                  <td>
+                    <div class="table-title">
+                      <div class="table-title-text">
+                        Диагностика (рентген)
+                      </div>
+                      <div class="table-title-line"></div>
+                    </div>
+                  </td>
+                  <td>
+                    <div class="table-price">
+                      500 ₽
+                    </div>
+                  </td>
+                </tr>
+                <tr class="accordion-content" data-content="accordion2">
+                  <td>A16.07.002.002</td>
+                  <td>
+                    <div class="table-title">
+                      <div class="table-title-text">
+                        Анестезия
+                      </div>
+                      <div class="table-title-line"></div>
+                    </div>
+                  </td>
+                  <td>
+                    <div class="table-price">
+                      <div class="table-price-line"></div>
+                      <div class="table-price-text">500 ₽</div>
+                    </div>
+                  </td>
+                </tr>
+                <tr class="accordion-content" data-content="accordion2">
+                  <td>A16.07.002.003</td>
+                  <td>
+                    <div class="table-title">
+                      <div class="table-title-text">
+                        Обработка каналов (3 канала)
+                      </div>
+                      <div class="table-title-line"></div>
+                    </div>
+
+                  </td>
+                  <td>
+                    <div class="table-price">
+                      <div class="table-price-line"></div>
+                      <div class="table-price-text">6 700 ₽</div>
+                    </div>
+                  </td>
+                </tr>
+
+                <!-- Обычная строка -->
+                <tr>
+                  <td>A16.07.003</td>
+                  <td>
+                    <div class="table-title">
+                      <div class="table-title-text">
+                        <b>Профессиональная гигиена</b>
+                      </div>
+                      <div class="table-title-line"></div>
+                    </div>
+
+                  </td>
+                  <td>
+                    <b>3 500 ₽</b>
+                  </td>
+                </tr>
+              </tbody>
+            </table>
+            <div class="price-table-mob">
+              <div class="price-table-mob__item">
+                <div class="price-table-mob__item-row">
+                  <div class="price-table-mob__item-info">
+                    <div class="price-table-mob__item-name">Консультация</div>
+                    <div class="price-table-mob__item-code">A16.07.048-01-2</div>
+                  </div>
+                  <div class="price-table-mob__item-price">Бесплатно</div>
+                </div>
+              </div>
+              <div class="price-table-mob__item price-table-mob__item--dropdown">
+                <div class="price-table-mob__item-row" data-mob-accordion="accordion-mob-01">
+                  <div class="price-table-mob__item-info">
+                    <div class="price-table-mob__item-name">Лечение одноканального зуба (под ключ)</div>
+                    <div class="price-table-mob__item-code">-</div>
+                  </div>
+                  <div class="price-table-mob__item-price">от 5 000 ₽</div>
+                </div>
+                <div class="price-table-mob__item-dropdown" data-mob-content="accordion-mob-01">
+                  <div class="price-table-mob__item-list">
+                    <div class="price-table-mob__item-row">
+                      <div class="price-table-mob__item-info">
+                        <div class="price-table-mob__item-name">Диагностика и планирование лечения</div>
+                        <div class="price-table-mob__item-code">A16.07.001.001</div>
+                      </div>
+                      <div class="price-table-mob__item-price">1500 ₽</div>
+                    </div>
+                    <div class="price-table-mob__item-row">
+                      <div class="price-table-mob__item-info">
+                        <div class="price-table-mob__item-name">Анестезия</div>
+                        <div class="price-table-mob__item-code">A16.07.001.002</div>
+                      </div>
+                      <div class="price-table-mob__item-price">500 ₽</div>
+                    </div>
+                    <div class="price-table-mob__item-row">
+                      <div class="price-table-mob__item-info">
+                        <div class="price-table-mob__item-name">Препарирование и пломбирование канала</div>
+                        <div class="price-table-mob__item-code">A16.07.001.003</div>
+                      </div>
+                      <div class="price-table-mob__item-price">3 000 ₽</div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="price-table-mob__item">
+                <div class="price-table-mob__item-row">
+                  <div class="price-table-mob__item-info">
+                    <div class="price-table-mob__item-name">Консультация</div>
+                    <div class="price-table-mob__item-code">A16.07.048-01-2</div>
+                  </div>
+                  <div class="price-table-mob__item-price">Бесплатно</div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
     <section class="dr-content dr-section">
       <div class="wrapper">
         <div class="dr-content__inner">
@@ -382,6 +614,7 @@
       </div>
     </section>
   </main>
+  <script src="./js/price-table.js"></script>
 </body>
 
 </html>

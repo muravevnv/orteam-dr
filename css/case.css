@@ -1,0 +1,31 @@
+.case__tags {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 20px;
+  margin-bottom: 50px;
+
+  @media (max-width: 1023.98px) {
+    margin-bottom: 0;
+    order: 2;
+    gap: 8px;
+  }
+}
+
+.case__tag {
+  display: inline-block;
+  width: auto;
+  padding: 10px;
+  font-size: 20px;
+  line-height: 1.1;
+  color: #0b3847;
+  background-color: #ffffff;
+  border-radius: 6px;
+
+  @media (max-width: 1023.98px) {
+    font-size: 14px;
+    padding: 8px;
+  }
+}
